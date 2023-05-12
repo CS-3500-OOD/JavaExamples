@@ -1,0 +1,8 @@
+rootProject.name = 'JavaExamples'
+include 'FileSystemExample'
+include 'FileIOExample'
+include 'ScannerExample'
+include 'FileSystemListPDFs'
+include 'ComparableExample'
+include 'ObjectCreationExample'
+

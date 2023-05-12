@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'cs3500.examples.FileSystemExample'
+    File runningDir = new File(rootProject.projectDir.path + '/FileSystemExample')
+    tasks.run.workingDir = runningDir
+}
+
+group = 'cs3500.examples'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
