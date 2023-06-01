@@ -5,8 +5,8 @@ import java.util.List;
 
 public class BasicCar {
   private final List<String> radioStations;
-  private int radioVolume;
   private final int engineHorsePower;
+  private int radioVolume;
 
   public BasicCar() {
     radioStations = new ArrayList<>();
@@ -23,6 +23,7 @@ public class BasicCar {
     System.out.printf("Playing station %s...\n", radioStations.get(1));
     System.out.println("Let's drive away at 40 mph...");
   }
-
-
 }
+
+
+

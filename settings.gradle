@@ -5,6 +5,5 @@ include 'ScannerExample'
 include 'FileSystemListPDFs'
 include 'ComparableExample'
 include 'ObjectCreationExample'
-include 'ArrayExamples'
 include 'Coupling'
 

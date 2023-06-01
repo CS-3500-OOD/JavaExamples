@@ -8,8 +8,8 @@ import java.util.List;
 
 public class SimpleCar {
 
-  private Engine engine;
-  private Radio radio;
+  private final Engine engine;
+  private final Radio radio;
 
   public SimpleCar() {
     List<String> radioStations = new ArrayList<>();

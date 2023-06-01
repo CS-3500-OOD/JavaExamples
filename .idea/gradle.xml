@@ -8,7 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ArrayExamples" />
             <option value="$PROJECT_DIR$/ComparableExample" />
             <option value="$PROJECT_DIR$/Coupling" />
             <option value="$PROJECT_DIR$/FileIOExample" />
@@ -16,6 +15,14 @@
             <option value="$PROJECT_DIR$/FileSystemListPDFs" />
             <option value="$PROJECT_DIR$/ObjectCreationExample" />
             <option value="$PROJECT_DIR$/ScannerExample" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JavaFX-Ex01" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/JavaFX-Ex01" />
           </set>
         </option>
       </GradleProjectSettings>

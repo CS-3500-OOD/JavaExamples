@@ -3,7 +3,7 @@ package cs3500.coupling.carparts;
 import java.util.List;
 
 public class Radio {
-  private List<String> favoriteStations;
+  private final List<String> favoriteStations;
   private int volume;
 
   public Radio (List<String> stations) {
@@ -15,8 +15,11 @@ public class Radio {
     if (stationId >= favoriteStations.size()){
       throw new IllegalArgumentException("Invalid favorite station id");
     }
-    volume = 10;
-    System.out.printf("Playing %s station.\n", favoriteStations.get(stationId));
+    volume = 15;
+    System.out.printf("Playing %s station at vol %d.\n",
+        favoriteStations.get(stationId),
+        volume
+    );
   }
 
   public void setVolume (int newVolume) {
